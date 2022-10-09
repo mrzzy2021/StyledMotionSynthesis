@@ -1387,7 +1387,6 @@ class Generator:
         output = output.cpu().numpy()
         foot_contact = fc[0]
         save_bvh_from_network_output(output, output_path=f'./diff-gcn-{name}.bvh')
-        remove_fs(output, foot_contact, output_path=f'./fixed_gcn-{name}.bvh')
 
     def generate_data(self, size):
         state = torch.load('./classifier.pt')
