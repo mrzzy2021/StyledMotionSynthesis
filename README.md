@@ -8,7 +8,7 @@ Please create an appropriate environment using conda:
 
 > conda env create -f environment.yml
 
-> conda activate vhoi
+> conda activate motiondiffusion
 
 ## Download Data
 Xia dataset can be downloaded from https://github.com/DeepMotionEditing/deep-motion-editing and extracted into ./data.
