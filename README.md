@@ -16,7 +16,6 @@ Xia dataset can be downloaded from https://github.com/DeepMotionEditing/deep-mot
 Run data_proc/gen_dataset.sh to generate the dataset.
 
 ## Citation
-If you use our code or data, please cite:
 ```
 @inproceedings{chang2022unifying,
     title={Unifying Human Motion Synthesis and Style Transfer with Denoising Diffusion Probabilistic Models},
